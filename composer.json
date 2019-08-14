@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/SSTech_ViewProduct",
+    "type": "magento-module",
+    "license": "Open-Source-License",
+    "homepage": "",
+    "description": "Extension which able to view product directly from catalog product admin ",
+    "authors": [
+    {
+        "name": "Stek",
+        "email": "sandynareshg@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,18 @@
+<?php if ($this->shouldAddButton()): ?>
+	<?php $itemUrl = $this->getItemUrl() ?>
+	<?php if ($itemUrl): ?>
+		<script type="text/javascript">
+		//<![CDATA[
+			document.observe("dom:loaded", function() {
+				try {
+					var backBtn = $$('.content-header .form-buttons button')[0];
+					if (backBtn.id) {
+						backBtn.insert({after : '<?php echo $this->getButtonHtml() ?>'});
+					}
+				}
+				catch (e) {}
+			});				
+		//]]>
+		</script>
+	<?php endif; ?>
+<?php endif; ?>

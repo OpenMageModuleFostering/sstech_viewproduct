@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout>
+	<adminhtml_catalog_product_edit>
+		<reference name="content">
+			<block type="viewProduct/catalog_product" before="-" name="preview_button.catalog.product" template="viewproduct/view.phtml" />
+		</reference>
+	</adminhtml_catalog_product_edit>
+
+</layout>
