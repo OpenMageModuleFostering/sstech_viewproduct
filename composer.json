@@ -1,9 +1,9 @@
 {
     "name": "OpenMageModuleFostering/SSTech_ViewProduct",
     "type": "magento-module",
-    "license": "Open-Source-License",
+    "license": "Open-Source-Licensce",
     "homepage": "",
-    "description": "Extension which able to view product directly from catalog product admin ",
+    "description": "Extension which allow to show "product view" button to view product directly from admin",
     "authors": [
     {
         "name": "Stek",
